@@ -8,6 +8,23 @@ html {
     background: black;
 }
 
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: centerrr;
+}
+
+.main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
 .section-one,
 .section-two,
 .section-three {
