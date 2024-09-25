@@ -71,6 +71,11 @@ body {
     opacity: 1;
 }
 
+.section-one .house__section:active {
+    transition: 0.2s;
+    background-color: rgba(101, 214, 31, 0.5);
+}
+
 .section-one .house__section:nth-of-type(1) {
     bottom: var(--floot-start);
 }
@@ -140,6 +145,11 @@ body {
 .section-two .house__section:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+.section-two .house__section:active {
+    transition: 0.2s;
+    background-color: rgba(101, 214, 31, 0.5);
 }
 
 .section-two .house__section:nth-of-type(1) {
@@ -248,6 +258,11 @@ body {
 .section-three .house__section:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+.section-three .house__section:active {
+    transition: 0.2s;
+    background-color: rgba(101, 214, 31, 0.5);
 }
 
 .section-three .house__section:nth-of-type(1) {
