@@ -1,0 +1,1 @@
+# houses-floor-clip-poligon
